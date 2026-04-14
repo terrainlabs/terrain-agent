@@ -17,12 +17,6 @@ curl -fsSL https://api.terrainlabs.io/install.sh | sudo bash -s -- --token <clai
 
 Get a claim code from your robot detail page in Terrain Studio.
 
-## Staging
-
-```bash
-curl -fsSL https://api.staging.terrainlabs.io/install.sh | sudo bash -s -- --token <staging-claim-code>
-```
-
 ## Release shape
 
 Each release tag (e.g. `agent-v0.1.0`) contains three assets:
